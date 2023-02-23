@@ -7,6 +7,7 @@ import ReviewsIcon from '@mui/icons-material/Reviews';
 import AddBoxIcon from '@mui/icons-material/AddBox';
 import LogoutIcon from '@mui/icons-material/Logout';
 import AccountBoxIcon from '@mui/icons-material/AccountBox';
+import Phone from '@mui/icons-material/Phone';
 import CloseIcon from '@mui/icons-material/Close';
 import Avatar from '@mui/material/Avatar';
 import { useDispatch, useSelector } from 'react-redux';
@@ -51,9 +52,15 @@ const navMenu = [
     ref: '/account',
   },
   {
+    icon: <Phone />,
+    label: 'Call Back', 
+    ref: '/callback',
+  },
+  {
     icon: <LogoutIcon />,
     label: 'Logout',
   },
+
 ];
 
 const Sidebar = ({ activeTab, setToggleSidebar }) => {

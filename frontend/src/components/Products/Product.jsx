@@ -40,7 +40,7 @@ const Product = ({
       {/* <!-- image & product title --> */}
       <Link
         to={`/product/${_id}`}
-        className="flex flex-col items-center text-center group"
+        className="flex flex-col items-center text-center group productcardin"
       >
         <div className="w-44 h-48">
           <img

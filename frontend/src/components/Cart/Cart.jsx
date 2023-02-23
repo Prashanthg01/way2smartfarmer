@@ -24,7 +24,7 @@ const Cart = () => {
           {/* <!-- cart column --> */}
           <div className="flex-1">
             {/* <!-- cart items container --> */}
-            <div className="flex flex-col shadow bg-white">
+            <div className="flex flex-col shadow">
               <span className="font-medium text-lg px-2 sm:px-8 py-4 border-b">
                 My Cart ({cartItems.length})
               </span>
@@ -53,7 +53,7 @@ const Cart = () => {
             {/* <!-- cart items container --> */}
 
             {/* <!-- saved for later items container --> */}
-            <div className="flex flex-col mt-5 shadow bg-white">
+            <div className="flex flex-col mt-5 shadow">
               <span className="font-medium text-lg px-2 sm:px-8 py-4 border-b">
                 Saved For Later ({saveForLaterItems.length})
               </span>

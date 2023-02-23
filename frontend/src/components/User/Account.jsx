@@ -37,7 +37,7 @@ const Account = () => {
               <Sidebar activeTab={'profile'} />
 
               {/* <!-- details column --> */}
-              <div className="flex-1 overflow-hidden shadow bg-white">
+              <div className="flex-1 overflow-hidden shadow">
                 {/* <!-- edit info container --> */}
                 <div className="flex flex-col gap-12 m-4 sm:mx-8 sm:my-6">
                   {/* <!-- personal info --> */}
@@ -204,8 +204,8 @@ const Account = () => {
                     </p>
 
                     <h4 className="text-sm font-medium">
-                      What happens to my existing Way2SmartFarmer account when I update
-                      my email address (or mobile number)?
+                      What happens to my existing Way2SmartFarmer account when I
+                      update my email address (or mobile number)?
                     </h4>
                     <p className="text-sm">
                       Updating your email address (or mobile number) doesn't
@@ -219,8 +219,8 @@ const Account = () => {
                       address?
                     </h4>
                     <p className="text-sm">
-                    Way2SmartFarmer has a 'single sign-on' policy. Any changes will
-                      reflect in your Seller account also.
+                      Way2SmartFarmer has a 'single sign-on' policy. Any changes
+                      will reflect in your Seller account also.
                     </p>
                   </div>
                   {/* <!-- faqs --> */}
@@ -241,6 +241,7 @@ const Account = () => {
                   className="w-full object-contain"
                   src="https://www.way2agritech.com/img/5.png"
                   alt="footer"
+                  style={{width:'500px',borderRadius:'74px'}}
                 />
               </div>
               {/* <!-- details column --> */}
