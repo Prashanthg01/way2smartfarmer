@@ -270,16 +270,17 @@ table {
   top: 8%;
   right: 0px;
   z-index: 2;
-  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
   display: none;
 }
 .hidden {
   display: flex;
 }
-.filterbtn:hover + .show {
+.filterbtn:hover + .showo {
   display: block;
 }
-.show {
+.showo {
   display: none;
 }
 .showContainer {
@@ -288,6 +289,10 @@ table {
   z-index: 2;
   left: -4px;
   top: 8%;
+}
+/* ////////////////////////////////////////// */
+#zoom {
+  width: 1200px;
 }
 @media screen and (max-width: 450px) {
   .searchbar {

@@ -17,7 +17,6 @@ export function One() {
   return (
     <>
       <Dropdown>
-      <a href='/'>
         <img src={home} alt="Home" />
         <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
           home
@@ -34,7 +33,6 @@ export function One() {
             How Way2SmartFarmer works?
           </Dropdown.Item>
         </Dropdown.Menu>
-        </a>
       </Dropdown>
     </>
   );
@@ -44,7 +42,6 @@ export function Two() {
   return (
     <>
       <Dropdown>
-      <a href='/products?category=Agritech'>
         <img src={Agritech} alt="Home" />
         <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
           Agritech
@@ -56,7 +53,6 @@ export function Two() {
           </Dropdown.Item>
           <Dropdown.Item href="#/action-2">Power weeder</Dropdown.Item>
         </Dropdown.Menu>
-        </a>
       </Dropdown>
     </>
   );
@@ -66,7 +62,6 @@ export function Three() {
   return (
     <>
       <Dropdown>
-      <a href='/products?category=Agriclinic'>
         <img src={Agriclinic} alt="Home" />
         <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
           Agri clicic
@@ -77,7 +72,6 @@ export function Three() {
           </Dropdown.Item>
           <Sub_Know_PPP />
         </Dropdown.Menu>
-        </a>
       </Dropdown>
     </>
   );
@@ -87,7 +81,6 @@ export function Four() {
   return (
     <>
       <Dropdown>
-      <a href='/products?category=Market'>
         <img src={Market} alt="Home" />
         <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
           Market Mitra
@@ -107,7 +100,6 @@ export function Four() {
           <Dropdown.Item href="#/action-4">Onion</Dropdown.Item>
           <Dropdown.Item href="#/action-4">Tomato</Dropdown.Item>
         </Dropdown.Menu>
-        </a>
       </Dropdown>
     </>
   );
@@ -117,7 +109,6 @@ export function Five() {
   return (
     <>
       <Dropdown>
-      <a href='/products?category=Knowledge'>
         <img src={Knowledge} alt="Home" />
         <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
           Knowledge center
@@ -127,7 +118,6 @@ export function Five() {
           <Sub_Know_Clinic />
           <Sub_Know_Market />
         </Dropdown.Menu>
-        </a>
       </Dropdown>
     </>
   );
@@ -137,7 +127,6 @@ export function Six() {
   return (
     <>
       <Dropdown>
-      <a href='/products?category=About'>
         <img src={About} alt="Home" />
         <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
           About us
@@ -149,7 +138,6 @@ export function Six() {
           </Dropdown.Item>
           <Dropdown.Item href="#/action-2">Online services</Dropdown.Item>
         </Dropdown.Menu>
-        </a>
       </Dropdown>
     </>
   );
@@ -159,7 +147,6 @@ export function Seven() {
   return (
     <>
       <Dropdown>
-      <a href='/products?category=Contact'>
         <img src={Contact} alt="Home" />
         <Dropdown.Toggle id="dropdown-button-dark-example1" variant="secondary">
           Contact us
@@ -171,7 +158,6 @@ export function Seven() {
           </Dropdown.Item>
           <Dropdown.Item href="#/action-2">Location</Dropdown.Item>
         </Dropdown.Menu>
-        </a>
       </Dropdown>
     </>
   );

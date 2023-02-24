@@ -222,7 +222,7 @@ const Products = () => {
             <div className="filterbtn">
               <button>Filter</button>
             </div>
-            <div className="show">
+            <div className="showo">
               <div className="flex-col px-1 showContainer" style={{width:'80%'}}>
                 {/* <!-- nav tiles --> */}
                 <div className="flex flex-col bg-white rounded-sm shadow">
