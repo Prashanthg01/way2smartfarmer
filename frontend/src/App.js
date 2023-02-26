@@ -38,6 +38,7 @@ import Wishlist from './components/Wishlist/Wishlist';
 import NotFound from './components/NotFound';
 import ReadBot from './components/User/ReadBot';
 import AddCustomer from './components/Home/Bot/BotWrite';
+import ReadBo from './components/User/BotRead/BotDetails';
 
 function App() {
   const dispatch = useDispatch();
@@ -175,7 +176,7 @@ function App() {
           path="/callback"
           element={
             <ProtectedRoute>
-              <ReadBot />
+              <ReadBo/>
             </ProtectedRoute>
           }
         ></Route>

@@ -294,6 +294,13 @@ table {
 #zoom {
   width: 1200px;
 }
+/* ////////////////////////////////////////// */
+.dispinner button img {
+  width: 40px;
+}
+.dispinner p a img {
+  width: 40px;
+}
 @media screen and (max-width: 450px) {
   .searchbar {
     width: 85%;
